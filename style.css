@@ -24,7 +24,7 @@ body{
 
 .hangman-box h1{
     display: flexbox;
-    color: #632207e1;
+    color: #003180e1;
     font-size: 1.45rem;
     align-items: center;
     text-align: center;
@@ -170,6 +170,55 @@ body{
 
     .hangman-box h1{
         display: flex;
+        align-items: center;
+    }
+
+    .game-box .keyboard{
+        display: flex;
+        gap: 3px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .word-display{
+        display: flex;
+        gap: 5px;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .game-modal .content{
+        background-color: #fff;
+        max-width: 300px;
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+        padding: 30px;
+    
+    }
+    .game-modal img{
+        max-width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .game-modal h4{
+        font-size: 1.53rem;
+    
+    }
+    
+    .game-modal p{
+        font-size: 1.1rem;
+        margin: 15px 0 30px;
+        font-weight: 500;
+    }
+    
+    .game-modal p b {
+        color: #5e63ba;
+        font-weight: 600;
+    }
+    
+    .game-modal button{
+        padding: 10px 20px;
     }
 
 }
